@@ -12,15 +12,13 @@ if( i==0 || i%2==0)
 {
 for (var j = 0; j <matrix[i].length; j++)
 {
-newarr[k] = arr[i][j];
-k++;
+  newarr.push(matrix[i][j]);
 }
 }
 else{
   for(j=matrix[i].length-1; j>=0; j--)
   {
-  newarr[k] = arr[i][j];
-  k++;
+    newarr.push(matrix[i][j]);
   }
 }
 }
