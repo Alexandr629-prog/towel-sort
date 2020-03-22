@@ -7,6 +7,7 @@ var k = 0;
 if(matrix==undefined) return [];
 if(matrix.length==1) return matrix;
 for (var i = 0; i < matrix.length; i++)
+{
 if( i==0 || i%2==0)
 {
 for (var j = 0; j <matrix[i].length; j++)
@@ -21,6 +22,7 @@ else{
   newarr[k] = arr[i][j];
   k++;
   }
+}
 }
 
 return newarr;
